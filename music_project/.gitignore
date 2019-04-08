@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend_react/music_list/node_modules
+frontend_react/music_list/.pnp
+frontend_react/music_list/.pnp.js
+
+# testing
+frontend_react/music_list/coverage
+
+# production
+frontend_react/music_list/build
+
+# misc
+frontend_react/music_list.DS_Store
+frontend_react/music_list.env.local
+frontend_react/music_list.env.development.local
+frontend_react/music_list.env.test.local
+frontend_react/music_list.env.production.local
+
+frontend_react/music_list/npm-debug.log*
+frontend_react/music_list/yarn-debug.log*
+frontend_react/music_list/yarn-error.log*
+
+# Python
+*.pyc
+music_project/__pycache__
+main_app/__pycache__
+main_app/migrations
+db.sqlite3
+/staticfiles
+
